@@ -226,3 +226,43 @@ p {
     opacity: 1;
 }
 
+.team {
+    padding: 90px 0 90px 0;
+}
+
+.team__inner {
+    display: flex;
+}
+
+.team__item {
+    margin-right: 30px;
+}
+
+.team__item:last-child {
+    margin-right: 0;
+}
+
+.team__title {
+    font-size: 22px;
+    color: #2d3033;
+    font-weight: 600;
+    line-height: 1;
+    margin: 30px 0 10px 0;
+}
+
+.team__name {
+    color: #e84545;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.team__text {
+    color: #6c7279;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
